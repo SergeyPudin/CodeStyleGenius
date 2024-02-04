@@ -6,7 +6,7 @@ public class Shooter : MonoBehaviour
     [SerializeField] private float _bulletSpeed;
     [SerializeField] private Bullet _bulletPrefab;
     [SerializeField] private Transform _objectToShoot;
-    [SerializeField] float _timeBetweenShots;
+    [SerializeField] private float _timeBetweenShots;
 
     private void Start()
     {
